@@ -49,8 +49,9 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Streamlit
-.streamlit/
+# Streamlit (ignore secrets but not examples)
+.streamlit/secrets.toml
+.streamlit/config.toml
 
 # Environment files
 .env
