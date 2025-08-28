@@ -19,7 +19,7 @@
 Perfect for demonstrating modern AI orchestration, privacy-aware routing, and production deployment patterns.
 
 ## 📸 Demo
-
+https://github.com/spn1e/omni-agent/raw/main/assets/demo.mp4
 ![OmniAgent Interface](assets/screenshot.png)
 
 *Capture a demo GIF using [ScreenToGif](https://www.screentogif.com/) (Windows) or [Kap](https://getkap.co/) (macOS)*
