@@ -19,6 +19,14 @@
 Perfect for demonstrating modern AI orchestration, privacy-aware routing, and production deployment patterns.
 
 ## 📸 Demo
+### 🎥 Demo
+
+<video src="https://github.com/spn1e/omni-agent/raw/master/assets/demo.mp4" 
+       controls 
+       width="600">
+  Your browser does not support the video tag.
+</video>
+
 https://github.com/spn1e/omni-agent/raw/main/assets/demo.mp4
 ![OmniAgent Interface](assets/screenshot.png)
 
