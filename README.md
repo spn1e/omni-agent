@@ -18,20 +18,8 @@
 
 Perfect for demonstrating modern AI orchestration, privacy-aware routing, and production deployment patterns.
 
-## 📸 Demo
 ### 🎥 Demo
 [![Watch the demo](https://github.com/spn1e/omni-agent/raw/master/assets/demo-thumbnail.png)](https://github.com/spn1e/omni-agent/raw/master/assets/demo.mp4)
-
-<video src="https://github.com/spn1e/omni-agent/raw/master/assets/demo.mp4" 
-       controls 
-       width="600">
-  Your browser does not support the video tag.
-</video>
-
-https://github.com/spn1e/omni-agent/raw/main/assets/demo.mp4
-![OmniAgent Interface](assets/screenshot.png)
-
-*Capture a demo GIF using [ScreenToGif](https://www.screentogif.com/) (Windows) or [Kap](https://getkap.co/) (macOS)*
 
 ## 🚀 Features Matrix
 
@@ -383,34 +371,7 @@ python tests_routing.py
 - **Docker Deployment**: Containerized production setup
 - **Enterprise Features**: User management and audit logs
 
-## 🎤 Interview Pitch
 
-**"OmniAgent demonstrates modern AI application architecture with several key technical achievements:"**
-
-- **🔄 Intelligent Orchestration**: Dynamic routing between 4 different AI models based on input complexity and privacy requirements
-- **🛡️ Production-Grade Reliability**: Implements health monitoring, graceful fallbacks, and comprehensive error handling
-- **🔒 Privacy-First Architecture**: Local processing by default with transparent cloud enhancement options
-- **⚡ Modern Web Stack**: Uses Streamlit for rapid UI development with glassmorphism design and mobile responsiveness
-- **🧪 Test-Driven Development**: Includes comprehensive routing tests and modular component architecture
-- **📊 Observable Systems**: Built-in telemetry, performance monitoring, and user-friendly health dashboards
-
-*Perfect for demonstrating full-stack AI development, privacy-aware system design, and production deployment patterns.*
-
-## ❓ FAQ for Interviewers
-
-### Technical Decision Rationale
-
-**Q: Why LiteLLM over individual vendor SDKs?**
-A: LiteLLM provides a unified interface across OpenAI, Ollama, and OpenRouter, enabling easy model switching and consistent error handling. This abstraction layer simplifies the routing logic and makes the system more maintainable.
-
-**Q: How is privacy mode enforced technically?**
-A: Privacy mode is enforced at the routing layer—when `privacy="High"`, the `route_model()` function returns only local Ollama models regardless of query complexity. The UI clearly indicates which model processed each request.
-
-**Q: What informed the routing heuristics?**
-A: The heuristics balance cost, privacy, and capability. Simple queries (< 180 chars, basic keywords) use efficient local models, while complex tasks (analysis, creativity) leverage cloud models' advanced reasoning when privacy permits.
-
-**Q: How do fallbacks work and surface to users?**
-A: When cloud models fail (quota, network), the system automatically retries with local models and appends "(fallback to local)" to responses. Users see transparent model badges and fallback counters in the sidebar.
 
 ## 📄 License & Acknowledgments
 
@@ -432,4 +393,4 @@ To see the formatted README:
 3. **Browser**: Use [dillinger.io](https://dillinger.io) for live preview
 4. **CLI**: Install `grip` (`pip install grip`) and run `grip README.md`
 
-**Next Steps**: Add actual screenshots to `assets/` folder and consider recording a demo GIF showing the routing in action!
+
