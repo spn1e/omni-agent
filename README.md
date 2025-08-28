@@ -20,6 +20,7 @@ Perfect for demonstrating modern AI orchestration, privacy-aware routing, and pr
 
 ## 📸 Demo
 ### 🎥 Demo
+[![Watch the demo](https://github.com/spn1e/omni-agent/raw/master/assets/demo-thumbnail.png)](https://github.com/spn1e/omni-agent/raw/master/assets/demo.mp4)
 
 <video src="https://github.com/spn1e/omni-agent/raw/master/assets/demo.mp4" 
        controls 
